@@ -175,7 +175,7 @@ class TelemetryRenderer {
     // Clear any existing content in the span
     trackNameContainer.innerHTML = "";
     if ("---" === trackName) {
-      this.trackName.textContent = "PITS N' GIGGLES";
+      this.trackName.textContent = "Aller Jutsten F1";
     } else {
       // Create the first div for the track name
       const trackNameDiv = document.createElement("div");
